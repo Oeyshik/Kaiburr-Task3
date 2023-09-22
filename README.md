@@ -92,12 +92,12 @@ The project structure is organized as follows:
 
 The task is completed by following these steps:
 
-Creation of a Spring Boot application named task1.
-Building the Spring Boot application into a JAR file using mvn clean package.
-Creation of Docker images for both the Spring Boot application and MongoDB.
-Definition of Kubernetes YAML manifests for the application and MongoDB.
-Deployment of the application to the Kubernetes cluster using kubectl apply.
-Verification of the application's accessibility from the host machine.
+- Creation of a Spring Boot application named task1.
+- Building the Spring Boot application into a JAR file using mvn clean package.
+- Creation of Docker images for both the Spring Boot application and MongoDB.
+- Definition of Kubernetes YAML manifests for the application and MongoDB.
+- Deployment of the application to the Kubernetes cluster using kubectl apply.
+- Verification of the application's accessibility from the host machine.
 
 ## Screenshots
 

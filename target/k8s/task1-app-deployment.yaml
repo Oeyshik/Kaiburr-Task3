@@ -1,0 +1,38 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: task1-app-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: task1-app
+  template:
+    metadata:
+      labels:
+        app: task1-app
+    spec:
+      containers:
+        - name: task1
+          image: task1-app-image
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 8080
+          env:
+            - name: SPRING_DATA_MONGODB_URI
+              value: "mongodb://mongo-service:27017/task1"
+            - name: SPRING_PROFILES_ACTIVE
+              value: "prod"
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: task1-app-service
+spec:
+  selector:
+    app: task1-app
+  ports:
+    - protocol: TCP
+      port: 8080
+      targetPort: 8080
+  type: LoadBalancer

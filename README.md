@@ -46,8 +46,8 @@ Follow these steps to deploy the Spring Boot application with MongoDB to Kuberne
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/yourusername/your-repo.git
-   cd your-repo
+   git clone https://github.com/Oeyshik/Kaiburr-Task3.git
+   cd Kaiburr-Task3
 
 2. Build the Spring Boot application into a JAR file:
    ```bash

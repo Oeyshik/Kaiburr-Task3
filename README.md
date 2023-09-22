@@ -84,7 +84,7 @@ The project structure is organized as follows:
       - `mongo-deployment.yaml`: Kubernetes YAML manifest for MongoDB
       - `task1-app-deployment.yaml`: Kubernetes YAML manifest for the Spring Boot application
   - `src/`: Source code for the Spring Boot application
-    - `...`: AWS CodeBuild configuration file.
+    - `...`
   - `pom.xml `: Maven project configuration
   - `README.md`: Project documentation
 

@@ -1,61 +1,6 @@
-# Task 3: Kubernetes Deployment with Spring Boot and MongoDB
+# Kaiburr Task 3: Kubernetes Deployment
 
-This repository contains the implementation of Task 3, which involves deploying a Spring Boot application with MongoDB to a Kubernetes cluster. The task includes creating Docker images for the Spring Boot application and MongoDB, defining Kubernetes YAML manifests, and deploying the application to a Kubernetes cluster.
-
-## Table of Contents
-
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Requirements](#requirements)
-- [Installation Setup](#installation-setup)
-- [Project Structure](#project-structure)
-- [How the Task is Completed](#how-the-task-is-completed)
-- [Screenshots](#screenshots)
-
-## Features
-
-- Creation of Docker images for the Spring Boot application and MongoDB.
-- Kubernetes deployment using YAML manifests.
-- Isolation of MongoDB in a separate pod.
-- Configuration of environment variables for the Spring Boot application.
-- Persistent storage for MongoDB data.
-- Verification of application accessibility from the host machine.
-
-## Technologies Used
-
-- Spring Boot
-- MongoDB
-- Docker
-- Kubernetes
-- YAML
-- Maven
-
-## Requirements
-
-Before you begin, ensure you have the following requirements met:
-
-- Docker Desktop or another Kubernetes cluster setup.
-- `kubectl` command-line tool installed.
-- Maven for building the Spring Boot application.
-- Java development environment.
-
-## Installation Setup
-
-Follow these steps to deploy the Spring Boot application with MongoDB to Kubernetes:
-
-1. Clone this repository to your local machine:
-
-   ```bash
-   git clone https://github.com/yourusername/your-repo.git
-   cd your-repo
-
-Certainly, here's the updated README.md file with a "Project Structure" section:
-
-markdown
-Copy code
-# Task 3: Kubernetes Deployment with Spring Boot and MongoDB
-
-This repository contains the implementation of Task 3, which involves deploying a Spring Boot application with MongoDB to a Kubernetes cluster. The task includes creating Docker images for the Spring Boot application and MongoDB, defining Kubernetes YAML manifests, and deploying the application to a Kubernetes cluster.
+This repository contains the implementation of Kaiburr - Task 3, which involves deploying a Spring Boot application with MongoDB to a Kubernetes cluster. The task includes creating Docker images for the Spring Boot application and MongoDB, defining Kubernetes YAML manifests, and deploying the application to a Kubernetes cluster.
 
 ## Table of Contents
 
@@ -156,34 +101,36 @@ Verification of the application's accessibility from the host machine.
 
 ## Screenshots
 
-### Here are some screenshots that illustrate the workflow
+### Docker image for the Spring Boot application
+![App Screenshot](https://drive.google.com/uc?id=1qNmPuNn9soiiMQjQRVbLbWzmuamLA0_2)
 
-### Creating an S3 Bucket
-![App Screenshot](https://drive.google.com/uc?id=15s1-Idv4xzsA4GwCllDYfmJ3aecEta69)
+### Docker image for the MongoDB
+![App Screenshot](https://drive.google.com/uc?id=1tTtZ94dwaTwYaScjrJzcW-OoYOsKRzih)
 
-### Creating an S3 Bucket
-![App Screenshot](https://drive.google.com/uc?id=15s1-Idv4xzsA4GwCllDYfmJ3aecEta69)
+### Kubernetes YAML manifest for MongoDB
+![App Screenshot](https://drive.google.com/uc?id=1gTjrDU8l80aBmjLVIF86S8yU7Onov15r)
 
-### Creating an S3 Bucket
-![App Screenshot](https://drive.google.com/uc?id=15s1-Idv4xzsA4GwCllDYfmJ3aecEta69)
+![App Screenshot](https://drive.google.com/uc?id=13BFTG9EyBHLOydLHm5iDPQ26wcsyCqUk)
 
-### Creating an S3 Bucket
-![App Screenshot](https://drive.google.com/uc?id=15s1-Idv4xzsA4GwCllDYfmJ3aecEta69)
+### Kubernetes YAML manifest for the Spring Boot application
+![App Screenshot](https://drive.google.com/uc?id=1Y0vpEowL2nHVKFoMEDTVzFWCvz4AvGsy)
 
-### Creating an S3 Bucket
-![App Screenshot](https://drive.google.com/uc?id=15s1-Idv4xzsA4GwCllDYfmJ3aecEta69)
+![App Screenshot](https://drive.google.com/uc?id=1PCJiaqewLDhkbx-u2-oO5tdo_x_x52jO)
 
-### Creating an S3 Bucket
-![App Screenshot](https://drive.google.com/uc?id=15s1-Idv4xzsA4GwCllDYfmJ3aecEta69)
+### MongoDB in a separate pod
+![App Screenshot](https://drive.google.com/uc?id=1BlMDx5ryjeMT6r8fEYCmbi38AXOzD6we)
 
-### Creating an S3 Bucket
-![App Screenshot](https://drive.google.com/uc?id=15s1-Idv4xzsA4GwCllDYfmJ3aecEta69)
+### The application is taking MongoDB connection details from environment variables
 
-### Creating an S3 Bucket
-![App Screenshot](https://drive.google.com/uc?id=15s1-Idv4xzsA4GwCllDYfmJ3aecEta69)
+![App Screenshot](https://drive.google.com/uc?id=1Pa9270qbBuKWnRRrhsdPwXMUjyfbsoLZ)
 
-### Creating an S3 Bucket
-![App Screenshot](https://drive.google.com/uc?id=15s1-Idv4xzsA4GwCllDYfmJ3aecEta69)
+![App Screenshot](https://drive.google.com/uc?id=11DFJZexUMQW3joMEJDIbwxM2Nn3ZQywM)
 
-### Creating an S3 Bucket
-![App Screenshot](https://drive.google.com/uc?id=15s1-Idv4xzsA4GwCllDYfmJ3aecEta69)
+### The application endpoints are available from host machine
+![App Screenshot](https://drive.google.com/uc?id=1CciCdD8crNDUyAe6C7HXFMQmzifB98j-)
+
+![App Screenshot](https://drive.google.com/uc?id=1-3_9IzDtgrhuMvVINoHzqsqP3TRYmKos)
+
+![App Screenshot](https://drive.google.com/uc?id=1b_7U5wU_oJKm-8PWEo3GhyY5blNhkx78)
+
+![App Screenshot](https://drive.google.com/uc?id=10Hdp3O8j4vUV-txmaqX4KkVDziMvL7C_)
